@@ -1,12 +1,12 @@
 package pkg;
 
-public class HelloJava {
+public class HelloString {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println("Hello");
+		
 
 	}
 
