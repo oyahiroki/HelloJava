@@ -13,7 +13,8 @@ public class HelloArrayListMain2 {
 
 		}
 
-		ArrayList<String> list2 = new ArrayList<String>() {
+		@SuppressWarnings("serial")
+		ArrayList<String> list2 = new ArrayList<>() {
 			{
 				this.add("aaa");
 				this.add("bbb");
